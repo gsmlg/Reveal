@@ -74,8 +74,7 @@ class WebpackBaseConfig {
                     // ['transform-es2015-classes', {loose: true}],
                   ],
                   presets: [
-                    'env',
-                    'stage-0'
+                    '@babel/preset-env',
                   ]
                 }
               }

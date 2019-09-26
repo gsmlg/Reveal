@@ -57,6 +57,10 @@ class WebpackBaseConfig {
       module: {
         rules: [
           {
+            test: /\.(txt)|(md)$/,
+            use: ['raw-loader']
+          },
+          {
             test: /\.jsx?$/,
             include: this.srcPathAbsolute,
             use: [
@@ -70,8 +74,7 @@ class WebpackBaseConfig {
                     // ['transform-es2015-classes', {loose: true}],
                   ],
                   presets: [
-                    'es2015',
-                    'stage-0'
+                    '@babel/preset-env',
                   ]
                 }
               }
