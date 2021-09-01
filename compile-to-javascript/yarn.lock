@@ -3931,9 +3931,9 @@ retry@^0.12.0:
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/retry/-/retry-0.12.0.tgz#1b42a6266a21f07421d1b0b54b7dc167b01c013b"
 
-reveal.js@^3.4.1:
-  version "3.5.0"
-  resolved "http://registry.npm.taobao.org/reveal.js/download/reveal.js-3.5.0.tgz#95545949ad682636acecfdaea05cf0ca892d442d"
+reveal.js@^3.9.2:
+  version "3.9.2"
+  resolved "https://registry.yarnpkg.com/reveal.js/-/reveal.js-3.9.2.tgz#7f63d3dfec338b6c313dcabdf006e8cf80e0b358"
 
 rimraf@^2.5.4, rimraf@^2.6.3:
   version "2.7.1"
